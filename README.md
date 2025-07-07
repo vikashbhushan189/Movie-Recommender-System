@@ -36,8 +36,7 @@ A snippet of the highest-rated movies according to the weighted rating formula, 
 | The Dark Knight           | 12269      | 8.3          | 8.265480|
 | ...                       | ...        | ...          | ...     |
 
-*(Screenshot/Image Placeholder - Example Top Movies Chart)*
-![Top Popular Movies Chart](https://via.placeholder.com/600x200?text=Top+Popular+Movies+Chart)
+
 
 ### Recommendation Model Evaluation Summary (K=10)
 
@@ -75,10 +74,9 @@ Evaluation of the SVD model shows its accuracy in predicting ratings and its rec
 | User ID | Precision@10 | Recall@10 | F1-Score@10 | Total Liked Movies |
 | :------ | :----------- | :-------- | :---------- | :----------------- |
 | 1       | 0.0000       | 0.0000    | 0.0000      | 3                  |
-*(Note: These can be low due to dataset sparsity and strict 'liked' definition. Collaborative filtering often excels in larger datasets and implicitly observed preferences.)*
 
-*(Screenshot/Image Placeholder - Example Streamlit UI with results)*
-![Streamlit App Interface](https://via.placeholder.com/800x450?text=Streamlit+App+Interface)
+
+
 
 ## ⚙️ Setup and Installation
 
@@ -149,6 +147,7 @@ To get this project running locally, follow these steps:
     This command will open the Streamlit app in your default web browser (usually at `http://localhost:8501`).
 
 ## 📁 Repository Structure
+```
 your_movie_recommender/
 ├── data/ # Placeholder for raw datasets (download separately)
 │ └── .gitkeep
@@ -159,6 +158,8 @@ your_movie_recommender/
 ├── api.py # Core MovieRecommender class and logic
 ├── streamlit_app.py # Streamlit web application interface
 └── README.md # This file!
+
+```
 ## 🤝 Contribution
 
 Feel free to fork this repository, explore the code, open issues for bugs, or suggest improvements!
