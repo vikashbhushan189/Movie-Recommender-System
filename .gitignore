@@ -1,0 +1,33 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.html # If you export notebooks to HTML
+
+# Data files (DO NOT commit large datasets)
+data/*.csv # We'll include data/ and .gitkeep, but not the actual csvs
+
+# Saved Models (DO NOT commit large binary model files)
+saved_models_deploy/
+*.pkl
+*.bin
+*.model
+*.pt
+*.pth
+*.h5
+
+# OS specific files
+.DS_Store
+Thumbs.db
